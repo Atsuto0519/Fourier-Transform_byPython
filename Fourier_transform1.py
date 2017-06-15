@@ -21,7 +21,7 @@ def fourier_func(x, t) :
     return res
 
 # 級数を用意
-x = np.arange(0, 10, 0.1)
+x = np.arange(-5, 5, 0.1)
 K = 10
 t = 2*math.pi
 
