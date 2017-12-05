@@ -6,12 +6,12 @@ import matplotlib.pyplot as plt
 
 def DFT(x) :
     """
-    概要:　   
+    概要:　
     @param x:
-    @return  
+    @return
     """
-    
-    N = len(x)     
+
+    N = len(x)
     W_N = []
     X=np.zeros(N,dtype=complex)
     for k in range(N):
@@ -27,9 +27,9 @@ def DFT(x) :
 
 def IDFT(X) :
     """
-    概要:　    
-    @param X: 
-    @return   
+    概要:　
+    @param X:
+    @return
     """
 
     N = len(X)
