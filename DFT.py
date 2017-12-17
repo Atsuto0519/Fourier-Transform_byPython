@@ -8,7 +8,7 @@ def DFT(x) :
     """
     概要:　   離散フーリエ変換
     @param x:元信号
-    @return :フーリエ変換信号
+    @return :フーリエ変換信号(, W行列)
     """
 
     N = len(x)
@@ -29,7 +29,7 @@ def IDFT(X) :
     """
     概要:　   逆離散フーリエ変換
     @param X:フーリエ変換信号
-    @return :元信号
+    @return :元信号(, W行列)
     """
 
     N = len(X)
