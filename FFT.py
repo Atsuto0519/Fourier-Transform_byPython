@@ -63,8 +63,8 @@ def DIT(x) :
 def DIF(x) :
     """
     概要:　   周波数間引き高速フーリエ変換
-    @param X:フーリエ変換信号
-    @return :元信号
+    @param x:元信号
+    @return :フーリエ変換信号
     """
 
     # Decimation-In-Frequency FFT

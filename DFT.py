@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 
 def DFT(x) :
     """
-    概要:　
-    @param x:
-    @return
+    概要:　   離散フーリエ変換
+    @param x:元信号
+    @return :フーリエ変換信号
     """
 
     N = len(x)
@@ -27,9 +27,9 @@ def DFT(x) :
 
 def IDFT(X) :
     """
-    概要:　
-    @param X:
-    @return
+    概要:　   逆離散フーリエ変換
+    @param X:フーリエ変換信号
+    @return :元信号
     """
 
     N = len(X)
