@@ -5,20 +5,16 @@
 利用する際にはまず参考サイトを閲覧してください．
 
 
-### Discrete Fourier Transform (DFT)
+### [Discrete Fourier Transform (DFT)](https://github.com/Atsuto0519/Fourier-Transform_byPython/blob/master/DFT.py)
 
 離散フーリエ変換(DFT)と逆離散フーリエ変換(IDFT)
 
-- [DFT.py](https://github.com/Atsuto0519/Fourier-Transform_byPython/blob/master/DFT.py)
 
-
-### Fast Fourier Transform (FFT)
+### [Fast Fourier Transform (FFT)](https://github.com/Atsuto0519/Fourier-Transform_byPython/blob/master/FFT.py)
 
 高速フーリエ変換
 
 時間間引き高速フーリエ変換(Decimation-In-Time,DIT)と周波数間引き高速フーリエ変換(Decimation-In-Frequency,DIF)
-
-- [FFT.py](https://github.com/Atsuto0519/Fourier-Transform_byPython/blob/master/FFT.py)
 
 
 # 参考サイト
