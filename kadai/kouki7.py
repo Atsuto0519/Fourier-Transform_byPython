@@ -11,7 +11,7 @@ import FFT
 start_time = time.time()
 M_MIN = 1
 M_MAX = 100
-total_time = np.zeros([int(M_MAX-M_MIN+1),int(M_MAX-M_MIN+1)],dtype=complex)
+total_time = np.zeros([int(M_MAX-M_MIN+1),2])
 for i in range(M_MIN, M_MAX+1) :
     temp_N = int(np.power(2,i))
     x = np.arange(temp_N)
